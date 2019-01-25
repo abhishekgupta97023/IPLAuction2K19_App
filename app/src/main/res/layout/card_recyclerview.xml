@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <FrameLayout
+            android:id="@+id/toolbarCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cardback"
+                    android:layout_weight="0"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="?attr/actionBarSize"
+                    android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
+                    android:scaleType="centerCrop"
+                    android:padding="10dp"
+                    android:onClick="cardback"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cards"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"/>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:onClick="Conifrm_all_cards"
+                   android:background="@drawable/verification"/>
+                <TextView
+                    android:layout_weight="0"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="?attr/actionBarSize"/>
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <antonkozyriatskyi.circularprogressindicator.CircularProgressIndicator
+            android:id="@+id/circular_progress"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/toolbarCard"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            app:drawDot="true"
+            app:dotWidth="13dp"
+            />
+
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_below="@id/circular_progress"
+            android:id="@+id/card_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <View
+            android:fitsSystemWindows="true"
+            android:id="@+id/bgVisible"
+            android:visibility="gone"
+            android:background="@color/bgVisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+    <include layout="@layout/card_bottom_sheet_buy" />
+
+</android.support.design.widget.CoordinatorLayout>

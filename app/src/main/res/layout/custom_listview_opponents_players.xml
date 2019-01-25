@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/circulartext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="98"
+        android:gravity="center"
+        android:background="@drawable/circular_bg"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:id="@+id/playertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Initial Balance"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/circulartext"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_toEndOf="@id/playertext"
+        android:id="@+id/listvalue"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹10000000"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+
+</RelativeLayout>

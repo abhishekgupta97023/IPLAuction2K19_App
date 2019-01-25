@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/ipl_logo"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:scaleType="center"
+        android:background="#27213D"
+        android:contentDescription="@string/app_name" />
+    <EditText
+        android:id="@+id/code"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/join_room_hint" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  OR Scan Via QR Scanner  "
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="qr_reader"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/qr_code_reader"/>
+
+</LinearLayout>
+    </LinearLayout>

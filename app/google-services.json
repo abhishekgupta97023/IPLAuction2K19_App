@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "235857363096",
+    "firebase_url": "https://iplauction2k19-b225c.firebaseio.com",
+    "project_id": "iplauction2k19-b225c",
+    "storage_bucket": "iplauction2k19-b225c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235857363096:android:43031c5e90f9faf1",
+        "android_client_info": {
+          "package_name": "com.tachyon.techlabs.iplauction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235857363096-cuh98cg2vv9f5hq7gvqug3dc4g2rbbqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tachyon.techlabs.iplauction",
+            "certificate_hash": "dfe51d2b06d6818371f4c51086cb5a505ffd0946"
+          }
+        },
+        {
+          "client_id": "235857363096-netmk396uefmf8dfgkk42ke6k6f8ncut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tachyon.techlabs.iplauction",
+            "certificate_hash": "fcd00b16a4d5a52e6409c3bc36bd91a9337b7f8b"
+          }
+        },
+        {
+          "client_id": "235857363096-or5n72ohfest556lc40qc0fvv1o5ie2d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tachyon.techlabs.iplauction",
+            "certificate_hash": "e01b3e0408e4c758cea2497a62c52f9aaecdb71b"
+          }
+        },
+        {
+          "client_id": "235857363096-a5nan4sver77m49felgnqqbdn8vddcom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUZVu1xo8MQKhNzPob_Wiq0K7HmjVgxVE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235857363096-a5nan4sver77m49felgnqqbdn8vddcom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

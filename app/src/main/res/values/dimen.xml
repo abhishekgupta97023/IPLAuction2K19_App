@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_sheet_corner_radius">16dp</dimen>
+    <dimen name="bottom_sheet_top_padding">8dp</dimen>
+    <dimen name="mainbuttuntext">18sp</dimen>
+    <dimen name="textsize">22sp</dimen>
+    <dimen name="distance">32dp</dimen>
+    <dimen name="appname1">24sp</dimen>
+    <dimen name="appname2">24sp</dimen>
+    <dimen name="dimen360x640">20sp</dimen>
+    <dimen name="cardtext360x640">12sp</dimen>
+    <dimen name="cardtext">18sp</dimen>
+</resources>

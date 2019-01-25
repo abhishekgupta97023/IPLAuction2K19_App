@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/botton_sheet_layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_dialog_fragment"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp">
+
+
+        <TextView
+            android:id="@+id/card_name_bs"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/placeholder"
+            android:textSize="20sp"
+            android:textColor="@color/black" />
+
+    <TextView
+            android:id="@+id/card_pricetxt_bs"
+            android:layout_below="@id/card_name_bs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="48dp"
+            android:text="@string/price"
+            android:textSize="22sp"
+            android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/card_pricevalue_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/card_pricetxt_bs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:hint="Amount"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Spinner
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_alignBottom="@+id/card_pricetxt_bs"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="11dp"
+        android:id="@+id/spinner_amount"
+        android:layout_toEndOf="@+id/card_pricevalue_edittext">
+
+    </Spinner>
+
+
+
+    <Button
+        android:id="@+id/card_pay_bs"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/card_pricetxt_bs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_blue_btn"
+        android:letterSpacing="0.5"
+        android:visibility="visible"
+        android:text="@string/buy"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <!--<com.goodiebag.pinview.Pinview-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/pinView"-->
+        <!--android:layout_below="@id/card_pay_bs"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--app:pinWidth="40dp"-->
+        <!--app:pinHeight="40dp"-->
+        <!--app:pinLength="4"-->
+        <!--app:cursorVisible="true"-->
+        <!--app:forceKeyboard="false"-->
+        <!--app:hint="0"-->
+        <!--app:inputType="number"-->
+        <!--app:password="false">-->
+
+    <!--</com.goodiebag.pinview.Pinview>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/pinText"-->
+        <!--android:visibility="gone"-->
+        <!--android:layout_below="@id/pinView"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_marginBottom="30dp"-->
+        <!--android:text="@string/enterpin"/>-->
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/pin_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_pay_bs"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:hint="Enter Your Pin Number" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/confirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="350dp"
+        android:background="@drawable/round_blue_btn"
+        android:layout_below="@id/pin_edit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Confirm" />
+
+</RelativeLayout>

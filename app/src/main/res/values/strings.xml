@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">IPL Auction 2K19</string>
+    <string name="app_name_1">IPL Auction</string>
+    <string name="app_name_2">2K19</string>
+    <string name="app_intro_text">BID IT TO WIN IT</string>
+    <string name="page1title">Make your own team</string>
+    <string name="page1sub">Pick your own dream team by bidding for different players.</string>
+    <string name="page2title">Excellent team rules the world</string>
+    <string name="page2sub">Choose your players wisely and smartly.You can buy and sell them anytime you want.</string>
+    <string name="year">SE</string>
+    <string name="branch">EXTC</string>
+
+
+    <string name="createroom">Create Room</string>
+    <string name="yourroom">YOUR ROOM</string>
+    <string name="joinroom">Join Room</string>
+    <string name="join_room_hint">Please Enter Your Joining Code</string>
+    <string name="joining_code">JOIN CODE</string>
+    <string name="bosstext">Boss</string>
+    <string name="bosstextview">NOW YOU\'RE THE BOSS! TELL YOUR FRIENDS TO ENTER THIS CODE TO JOIN THE GAME </string>
+    <string name="membertextview">IS RULLING LIKE A BOSS</string>
+    <string name="waiting_text">WAITING FOR PEOPLE TO JOIN</string>
+    <string name="start_game">START GAME</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="OK">OK</string>
+    <string name="CANCEL">"Cancel"</string>
+
+    <string name="profile">Profile</string>
+    <string name="placeholder"> </string>
+    <string name="username">USERNAME</string>
+    <string name="my_team">My Team</string>
+    <string name="price">PRICE</string>
+    <string name="price_small">Price</string>
+    <string name="buy">BUY</string>
+    <string name="sell_to">Sell To</string>
+    <string name="sell">Sell</string>
+    <string name="amount">Enter Amount</string>
+
+    <string name="yorker">YORKER</string>
+    <string name="noBall">NO BALL</string>
+    <string name="rightToMatch">RIGHT TO MATCH</string>
+    <string name="legendCsrds">LEGEND CARDS</string>
+
+    <string name="yorker_price">₹ 10000</string>
+    <string name="no_ball_price">₹ 20000</string>
+    <string name="right_to_match_price">₹ 30000</string>
+    <string name="legend_cards_price">₹ 40000</string>
+    <string name="my_orders">My Orders</string>
+    <string name="enterpin">Enter your pin number</string>
+
+    <string name="matches">Matches</string>
+    <string name="runs">Runs</string>
+    <string name="wickets">Wickets</string>
+    <string name="baseprice">Base Price</string>
+    <string name="currentbid">Current Bid</string>
+    <string name="availablebids">Available Bids</string>
+
+    <string name="opponents">Opponents</string>
+    <string name="players">Players</string>
+    <string name="balance">Balance</string>
+
+    <string name="developeremail1">pranjalpchaudhari99@gmail.com</string>
+    <string name="developeremail2">abhishekgupta97023@gmail.com</string>
+    <string name="dev1_name">PRANJAL CHAUDHARI</string>
+    <string name="dev2_name">ABHISHEK GUPTA</string>
+
+    <string name="title_activity_power_cards">PowerCards</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="admins">Admins</string>
+
+    <string-array name="team_names">
+        <item>MI</item>
+        <item>CSK</item>
+        <item>DD</item>
+        <item>KXIP</item>
+        <item>KKR</item>
+        <item>GL</item>
+        <item>RPS</item>
+        <item>RR</item>
+        <item>RCB</item>
+        <item>SH</item>
+    </string-array>
+
+    <string-array name="story_lines">
+        <item>StoryLine1</item>
+        <item>StoryLine2</item>
+        <item>StoryLine3</item>
+    </string-array>
+
+    <string name="ongoing_player">ONGOING PLAYER</string>
+    <string name="player_point">Player Point</string>
+    <string name="preffered_position">Preffered Position</string>
+
+
+    <string name="app_description">IPL Auction App Description</string>
+    <string name="app_copyright"> © 2018 Sardar Patel Institute Of Technology</string>
+    <string name="app_license">Licensed under MIT License</string>
+    <string name="room_members">ROOM MEMBERS</string>
+    <string name="_3275">3275</string>
+    <string name="_2345">2345</string>
+    <string name="card_holder">CARD HOLDER</string>
+    <string name="expires">EXPIRES</string>
+    <string name="_02_18">02/19</string>
+    <string name="_4801">4801</string>
+    <string name="_7894">7894</string>
+    <string name="title_activity_about_developers">about_developers</string>
+
+    <string name="developername1">Pranjal Chaudhari</string>
+    <string name="developername2">Abhishek Gupta</string>
+    <string name="dev1_desc">Android and UX/UI Developer</string>
+    <string name="dev2_desc">Android and backend Developer</string>
+    <string name="email">"Email"</string>
+    <string name="devlopers">Developers</string>
+    <string name="dev_click">Click for more info</string>
+
+
+    <string name="scan_qr_msg">Please Scan The QR Code \n To Join The Room</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="yorker_desc">After a particular player appears on the screen, a team, which uses this card on some other team, can prohibit the latter team from bidding for that player</string>
+    <string name="Free_hit_1_desc">"This card can be applied to change the preferred position of a player in your lineup after you have completed your team after the completion of the auction"</string>
+    <string name="Free_hit_2_desc">"This card can be applied to change the preferred position of a player in your lineup after you have completed your team after the completion of the auction"</string>
+    <string name="rtm_desc">"A player which has been successfully bid by a team can be purchased by another team at the same price if the team possessing this card uses it for that player"</string>
+    <string name="legend_desc">"This card allows a team to purchase an extra legend"</string>
+</resources>

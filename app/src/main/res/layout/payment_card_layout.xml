@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/payment_card_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/placeholder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/payment_card_bg" />
+
+    <ImageView
+        android:id="@+id/master_card"
+        android:layout_width="42dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/placeholder"
+        app:layout_constraintStart_toStartOf="@+id/payment_card_id"
+        app:layout_constraintTop_toTopOf="@+id/payment_card_id"
+        app:srcCompat="@drawable/master_card" />
+
+    <TextView
+        android:id="@+id/card_num_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/placeholder"
+        android:letterSpacing="0.2"
+        android:text="@string/_3275"
+        android:textColor="@color/white"
+        android:textSize="@dimen/cardtext"
+        app:layout_constraintStart_toStartOf="@+id/payment_card_id"
+        app:layout_constraintTop_toBottomOf="@+id/master_card" />
+
+    <TextView
+        android:id="@+id/card_num_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/distance"
+        android:letterSpacing="0.2"
+        android:text="@string/_2345"
+        android:textColor="@color/white"
+        android:textSize="@dimen/cardtext"
+        app:layout_constraintBaseline_toBaselineOf="@+id/card_num_1"
+        app:layout_constraintStart_toEndOf="@+id/card_num_1" />
+
+    <TextView
+        android:id="@+id/card_num_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/distance"
+        android:letterSpacing="0.2"
+        android:text="@string/_7894"
+        android:textColor="@color/white"
+        android:textSize="@dimen/cardtext"
+        app:layout_constraintBaseline_toBaselineOf="@+id/card_num_1"
+        app:layout_constraintStart_toEndOf="@+id/card_num_2" />
+
+    <TextView
+        android:id="@+id/card_num_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/distance"
+        android:letterSpacing="0.2"
+        android:text="@string/_4801"
+        android:textColor="@color/white"
+        android:textSize="@dimen/cardtext"
+        app:layout_constraintBaseline_toBaselineOf="@+id/card_num_1"
+        app:layout_constraintStart_toEndOf="@+id/card_num_3" />
+
+    <TextView
+        android:id="@+id/card_holder_id"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:letterSpacing="0.1"
+        android:text="@string/card_holder"
+        android:textColor="@color/card_grey_text_color"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/payment_card_id"
+        app:layout_constraintTop_toBottomOf="@+id/card_num_1" />
+
+    <TextView
+        android:id="@+id/card_holder_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:letterSpacing="0.1"
+        android:text="@string/placeholder"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/payment_card_id"
+        app:layout_constraintTop_toBottomOf="@+id/card_holder_id" />
+
+    <TextView
+        android:id="@+id/expires_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:letterSpacing="0.1"
+        android:text="@string/expires"
+        android:textColor="@color/card_grey_text_color"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/card_holder_id"
+        app:layout_constraintStart_toEndOf="@+id/card_holder_id" />
+
+    <TextView
+        android:id="@+id/expiry_date_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:letterSpacing="0.1"
+        android:text="@string/_02_18"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/card_holder_name"
+        app:layout_constraintStart_toEndOf="@+id/card_holder_name" />
+
+
+</android.support.constraint.ConstraintLayout>

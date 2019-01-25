@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/nav_opponents"
+        android:title="Opponents" />
+    <item
+        android:id="@+id/nav_players"
+        android:title="Ongoing Players" />
+    <item
+        android:id="@+id/nav_payments_info"
+        android:title="Payment Info" />
+
+    <item
+        android:id="@+id/reveal"
+        android:title="Reveal" />
+
+
+    <item android:title="Power Ups">
+
+        <menu>
+            <item
+                android:id="@+id/nav_cards"
+                android:title="Cards" />
+
+        </menu>
+
+    </item>
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_rules"
+                android:title="Rules" />
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share app" />
+
+            <item
+                android:id="@+id/nav_sponsors"
+                android:title="Sponsors" />
+
+
+            <item
+                android:id="@+id/nav_developer"
+                android:title="About Developer" />
+            <item
+                android:id="@+id/nav_about_app"
+                android:title="App Info" />
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Log out" />
+        </menu>
+    </item>
+</menu>
